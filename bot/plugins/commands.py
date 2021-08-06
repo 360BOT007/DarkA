@@ -165,6 +165,7 @@ async def about(bot, update):
         reply_to_message_id=update.message_id
     )
     
+    
     @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start_not_joined(bot, update):
 
