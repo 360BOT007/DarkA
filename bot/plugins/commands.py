@@ -211,7 +211,7 @@ async def start_not_joined(bot, update):
         )
         await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.FORCE_SUBTEXT.format(
+            text=Translation.FORCESUB_CHANNEL.format(
                 tryagain = tryagain,
                 invitelink = bot.invitelink
             ),
