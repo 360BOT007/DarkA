@@ -5,13 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<b>എന്നെ <a href="https://t.me/movie360group" >360 Mᴏᴠɪᴇs</a> ഗ്രൂപ്പിൽ പണി എടുക്കാൻ ഉണ്ടാക്കിയതാ എന്റെ മുതലാളി😘\n\nഅതുകൊണ്ട് നിങ്ങളുടെ ഗ്രൂപ്പിൽ ഉപയോഗിക്കാൻ പറ്റില്ല.....
+</b>"""    
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-@CrazyBotsz
-</i>"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
