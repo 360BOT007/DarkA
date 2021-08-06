@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                caption=f"<b>Found</b> <b>{(len_results)}</b> <b>Results For Your Query:</b> <code>{query}</code> 👇 \n\n🔰360 ᗰOᐯIᗴՏ🔰\n<a href= https://t.me/joinchat/ME-pgJrySWg1ZDg1>ɴᴇᴡ Mᴏᴠɪᴇs കിട്ടുന്നില്ലെങ്കിൽ ഇവിടെ ക്ലിക്ക് ചെയ്യുക</a>",
+                text=f"<b>Found</b> <b>{(len_results)}</b> <b>Results For Your Query:</b> <code>{query}</code> 👇 \n\n🔰360 ᗰOᐯIᗴՏ🔰\n<a href= https://t.me/joinchat/ME-pgJrySWg1ZDg1>ɴᴇᴡ Mᴏᴠɪᴇs കിട്ടുന്നില്ലെങ്കിൽ ഇവിടെ ക്ലിക്ക് ചെയ്യുക</a>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
